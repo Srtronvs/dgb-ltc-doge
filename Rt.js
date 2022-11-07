@@ -3,7 +3,7 @@ const DigiByte = require('digibyte');
 const ltc = require('bitcore-lib-ltc');
 const Doge = require('bitcore-lib-doge');
 const LTC = require('bitcore-lib-ltc');
-const { default: axios } = require('axios');
+const fetch = require('node-fetch-polyfill');
 class DigiByteService {
   MINER_2 = 7200000
 
